@@ -12,9 +12,9 @@ public class SelectionSort {
 					array[j] = temp;
 				}
 			}
+			System.out.println(Arrays.toString(array));
 		}
-		System.out.println(Arrays.toString(array));
+//		System.out.println(Arrays.toString(array));
 	}
 }
 
-/*Test*/
