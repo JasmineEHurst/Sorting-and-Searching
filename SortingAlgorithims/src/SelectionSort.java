@@ -16,3 +16,5 @@ public class SelectionSort {
 		System.out.println(Arrays.toString(array));
 	}
 }
+
+/*Test*/
