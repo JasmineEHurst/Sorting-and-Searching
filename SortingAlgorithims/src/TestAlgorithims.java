@@ -8,9 +8,11 @@ public class TestAlgorithims {
 		BubbleSort bubbleSort = new BubbleSort();
 		SelectionSort selectionSort = new SelectionSort();
 		InsertionSort insertionSort = new InsertionSort();
+		QuickSort quickSort = new QuickSort();
 //		bubbleSort.sort(array);
 //		selectionSort.sort(array);
-		insertionSort.sort(array);
+//		insertionSort.sort(array);
+		quickSort.sort(array, 0, array.length - 1, true);
 	}
 
 }
